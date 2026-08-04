@@ -8,14 +8,15 @@ repo: upptime
 sites:
   - name: Portfolio
     url: https://adityakamal.com
-    # Fails the check if the page stops containing your name — catches the case
-    # where nginx is up and returns 200 but the app behind it is broken.
-    __dangerous__body_down: Aditya Kamal
+    # Down if the page STOPS containing this text — catches the case where
+    # nginx is up and returns 200 but the app behind it is broken.
+    # (Note: `__dangerous__body_down` means the opposite — down if PRESENT.)
+    __dangerous__body_down_if_text_missing: Aditya Kamal
 
   - name: Portfolio API
     url: https://adityakamal.com/api/health
     # Liveness probe: proves the Node process itself is answering, not just nginx.
-    __dangerous__body_down: '"status":"ok"'
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
 
   - name: Preview (/test)
     url: https://adityakamal.com/test
