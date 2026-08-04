@@ -1,31 +1,58 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime configuration for adityakamal.com
+# Drop this file in the root of your Upptime repo, replacing the template's version.
+# Docs: https://upptime.js.org/docs/configuration
+
+owner: adityakamal11
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Portfolio
+    url: https://adityakamal.com
+    # Fails the check if the page stops containing your name — catches the case
+    # where nginx is up and returns 200 but the app behind it is broken.
+    __dangerous__body_down: Aditya Kamal
+
+  - name: Portfolio API
+    url: https://adityakamal.com/api/health
+    # Liveness probe: proves the Node process itself is answering, not just nginx.
+    __dangerous__body_down: '"status":"ok"'
+
+  - name: Preview (/test)
+    url: https://adityakamal.com/test
+
+  - name: WWW redirect
+    url: https://www.adityakamal.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: # optional: set to status.adityakamal.com if you add a CNAME record
+  logoUrl: https://adityakamal.com/profile.jpg
+  name: Aditya Kamal — Status
+  introTitle: "**Status** — adityakamal.com"
+  introMessage: Uptime and response time for the services I run on AWS, checked every 5 minutes from GitHub Actions.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Portfolio
+      href: https://adityakamal.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# How often things run (GitHub Actions cron). Defaults are fine and stay well
+# inside the free minutes allowance for a public repo.
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
+
+i18n:
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems operational
+  incidentReport: "Incident #$NUMBER report"
+  liveStatus: Live status
+  overallUptime: "Overall uptime: $UPTIME"
+  pastIncidents: Past incidents
+  responseTime: Response time
+  up: Up
+  down: Down
