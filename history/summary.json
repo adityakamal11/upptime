@@ -5,13 +5,13 @@
     "icon": "https://icons.duckduckgo.com/ip3/adityakamal.com.ico",
     "slug": "portfolio",
     "status": "down",
-    "uptime": "96.92%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "96.92%",
-    "uptimeYear": "96.92%",
+    "uptime": "94.52%",
+    "uptimeDay": "26.66%",
+    "uptimeWeek": "89.52%",
+    "uptimeMonth": "94.52%",
+    "uptimeYear": "94.52%",
     "time": 1382,
-    "timeDay": 1440,
+    "timeDay": 0,
     "timeWeek": 1380,
     "timeMonth": 1382,
     "timeYear": 1382,
@@ -19,7 +19,8 @@
       "2026-08-04": 94,
       "2026-08-18": 940,
       "2026-08-17": 247,
-      "2026-09-02": 1
+      "2026-09-03": 150,
+      "2026-09-02": 906
     }
   },
   {
@@ -28,13 +29,13 @@
     "icon": "https://icons.duckduckgo.com/ip3/adityakamal.com.ico",
     "slug": "portfolio-api",
     "status": "down",
-    "uptime": "96.93%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "96.93%",
-    "uptimeYear": "96.93%",
+    "uptime": "94.53%",
+    "uptimeDay": "26.67%",
+    "uptimeWeek": "89.52%",
+    "uptimeMonth": "94.53%",
+    "uptimeYear": "94.53%",
     "time": 722,
-    "timeDay": 751,
+    "timeDay": 0,
     "timeWeek": 718,
     "timeMonth": 722,
     "timeYear": 722,
@@ -42,7 +43,8 @@
       "2026-08-04": 94,
       "2026-08-18": 940,
       "2026-08-17": 242,
-      "2026-09-02": 1
+      "2026-09-03": 150,
+      "2026-09-02": 906
     }
   },
   {
@@ -51,20 +53,21 @@
     "icon": "https://icons.duckduckgo.com/ip3/adityakamal.com.ico",
     "slug": "preview-test",
     "status": "down",
-    "uptime": "97.23%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "97.23%",
-    "uptimeYear": "97.23%",
+    "uptime": "94.83%",
+    "uptimeDay": "26.69%",
+    "uptimeWeek": "89.53%",
+    "uptimeMonth": "94.83%",
+    "uptimeYear": "94.83%",
     "time": 1330,
-    "timeDay": 955,
+    "timeDay": 0,
     "timeWeek": 930,
     "timeMonth": 1330,
     "timeYear": 1330,
     "dailyMinutesDown": {
       "2026-08-18": 913,
       "2026-08-17": 237,
-      "2026-09-02": 0
+      "2026-09-03": 150,
+      "2026-09-02": 905
     }
   },
   {
@@ -73,20 +76,21 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.adityakamal.com.ico",
     "slug": "www-redirect",
     "status": "down",
-    "uptime": "97.25%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "97.25%",
-    "uptimeYear": "97.25%",
+    "uptime": "94.84%",
+    "uptimeDay": "26.71%",
+    "uptimeWeek": "89.53%",
+    "uptimeMonth": "94.84%",
+    "uptimeYear": "94.84%",
     "time": 1470,
-    "timeDay": 1655,
+    "timeDay": 0,
     "timeWeek": 1478,
     "timeMonth": 1470,
     "timeYear": 1470,
     "dailyMinutesDown": {
       "2026-08-18": 913,
       "2026-08-17": 232,
-      "2026-09-02": 0
+      "2026-09-03": 150,
+      "2026-09-02": 905
     }
   }
 ]
